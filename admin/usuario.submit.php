@@ -13,7 +13,7 @@ $objUs = new Usuario();
 
 		$objUs->adicionar($email, $nome, $senha, $permissao);
 
-		header('Location: usuarios.php');
+		header('Location: gestao.usuarios.php');
 	}else{
 		echo '<script type="text/javascript">alert("Email já cadastrado!");</script>';
 	}
